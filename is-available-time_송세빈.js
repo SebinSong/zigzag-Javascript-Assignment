@@ -24,7 +24,7 @@ function patternToRange(timeStr){
   hr1 = parseInt(matchArr[1], 10) * UNIT_HR;
   min1 = parseInt(matchArr[2], 10) * UNIT_MIN;
   hr2 = parseInt(matchArr[3], 10) * UNIT_HR;
-  min1 = parseInt(matchArr[2], 10) * UNIT_MIN;
+  min2 = parseInt(matchArr[4], 10) * UNIT_MIN;
 
   return [day+hr1+min1, day+hr2+min2];
 }
